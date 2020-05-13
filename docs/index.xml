@@ -97,9 +97,9 @@ $$&lt;/p&gt;
 &lt;p&gt;In markdown source file, math block is &lt;em&gt;LaTeX&lt;/em&gt; expression wrapped by ‘$$’ mark:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;$$
 \mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
-\mathbf{i} &amp;amp; \mathbf{j} &amp;amp; \mathbf{k} \\
-\frac{\partial X}{\partial u} &amp;amp;  \frac{\partial Y}{\partial u} &amp;amp; 0 \\
-\frac{\partial X}{\partial v} &amp;amp;  \frac{\partial Y}{\partial v} &amp;amp; 0 \\
+\mathbf{i} &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&amp;amp;&lt;/span&gt; \mathbf{j} &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&amp;amp;&lt;/span&gt; \mathbf{k} \\
+\frac{\partial X}{\partial u} &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&amp;amp;&lt;/span&gt;  \frac{\partial Y}{\partial u} &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&amp;amp;&lt;/span&gt; 0 \\
+\frac{\partial X}{\partial v} &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&amp;amp;&lt;/span&gt;  \frac{\partial Y}{\partial v} &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&amp;amp;&lt;/span&gt; 0 \\
 \end{vmatrix}
 $$
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;tables&#34;&gt;Tables&lt;/h2&gt;
@@ -113,7 +113,7 @@ $$
 | &lt;span style=&#34;font-weight:bold&#34;&gt;**Strong**&lt;/span&gt;        | &lt;span style=&#34;color:#e6db74&#34;&gt;`**Strong**`&lt;/span&gt;        | &lt;span style=&#34;color:#e6db74&#34;&gt;`&amp;lt;strong&amp;gt;&amp;lt;/strong&amp;gt;`&lt;/span&gt; |
 | &lt;span style=&#34;color:#e6db74&#34;&gt;`code`&lt;/span&gt;            | ``code``            | &lt;span style=&#34;color:#e6db74&#34;&gt;`&amp;lt;code&amp;gt;&amp;lt;/code&amp;gt;`&lt;/span&gt;      |
 | &lt;span style=&#34;color:#f92672&#34;&gt;~~Strikethrough~~&lt;/span&gt; | &lt;span style=&#34;color:#e6db74&#34;&gt;`~~Strikethrough~~`&lt;/span&gt; | &lt;span style=&#34;color:#e6db74&#34;&gt;`&amp;lt;del&amp;gt;&amp;lt;/del`&lt;/span&gt;         |
-| &amp;lt;u&amp;gt;Underline&amp;lt;/u&amp;gt;  | &lt;span style=&#34;color:#e6db74&#34;&gt;`&amp;lt;u&amp;gt;underline&amp;lt;/u&amp;gt;`&lt;/span&gt;  | &lt;span style=&#34;color:#e6db74&#34;&gt;`&amp;lt;u&amp;gt;&amp;lt;/u&amp;gt;`&lt;/span&gt;            |
+| &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;u&lt;/span&gt;&amp;gt;Underline&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;u&lt;/span&gt;&amp;gt;  | &lt;span style=&#34;color:#e6db74&#34;&gt;`&amp;lt;u&amp;gt;underline&amp;lt;/u&amp;gt;`&lt;/span&gt;  | &lt;span style=&#34;color:#e6db74&#34;&gt;`&amp;lt;u&amp;gt;&amp;lt;/u&amp;gt;`&lt;/span&gt;            |
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
