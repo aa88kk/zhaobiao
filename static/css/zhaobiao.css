@@ -1,0 +1,14 @@
+
+
+.post-content>table td {
+    background-color: #fff !important;
+    border:0 !important;
+}
+
+.post-content>table tr {
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.post-content>table {
+    font-size: 0.8em;    
+}
