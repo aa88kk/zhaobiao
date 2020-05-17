@@ -404,12 +404,48 @@
   <header class="post-header">
     <h1 class="post-title">
       
-      <a class="post-link" href="/zhaobiao/post/migrate-from-jekyll/">Migrate to Hugo from Jekyll</a>
+      <a class="post-link" href="/zhaobiao/post/this-is-a-very-long-title/">This is a very long title This is a very long title This is a very long title This is a very long title This is a very long title</a>
     </h1>
     
     <div class="post-meta">
-      <time datetime="2014-03-10" class="post-time">
-        2014-03-10
+      <time datetime="2017-08-30" class="post-time">
+        2017-08-30
+      </time>
+      <div class="post-category">
+          <a href="https://aa88kk.github.io/zhaobiao/categories/english/"> English </a>
+          <a href="https://aa88kk.github.io/zhaobiao/categories/index/"> index </a>
+          <a href="https://aa88kk.github.io/zhaobiao/categories/test/"> test </a>
+          
+        </div>
+      
+      
+      
+    </div>
+  </header>
+  
+  <div class="post-content">
+    
+    <div class="post-summary">
+      This is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long title
+    </div>
+    <div class="read-more">
+      <a href="/zhaobiao/post/this-is-a-very-long-title/" class="read-more-link">Read more</a>
+    </div>
+    
+  </div>
+</article>
+
+  
+    <article class="post bg-white">
+  <header class="post-header">
+    <h1 class="post-title">
+      
+      <a class="post-link" href="/zhaobiao/post/creating-a-new-theme/">Creating a New Theme</a>
+    </h1>
+    
+    <div class="post-meta">
+      <time datetime="2014-09-28" class="post-time">
+        2014-09-28
       </time>
       <div class="post-category">
           <a href="https://aa88kk.github.io/zhaobiao/categories/development/"> Development </a>
@@ -426,12 +462,11 @@
   <div class="post-content">
     
     <div class="post-summary">
-      Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &lt;root&gt;/ ▾ images/ logo.png  should become
-▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.
+      Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
+We&rsquo;ll start with creating a new site with a very basic template.
     </div>
     <div class="read-more">
-      <a href="/zhaobiao/post/migrate-from-jekyll/" class="read-more-link">Read more</a>
+      <a href="/zhaobiao/post/creating-a-new-theme/" class="read-more-link">Read more</a>
     </div>
     
   </div>
@@ -442,15 +477,16 @@
   <header class="post-header">
     <h1 class="post-title">
       
-      <a class="post-link" href="/zhaobiao/post/syntax-highlighting/">Syntax Highlighting</a>
+      <a class="post-link" href="/zhaobiao/post/goisforlovers/">(Hu)go Template Primer</a>
     </h1>
     
     <div class="post-meta">
-      <time datetime="2011-08-30" class="post-time">
-        2011-08-30
+      <time datetime="2014-04-02" class="post-time">
+        2014-04-02
       </time>
       <div class="post-category">
-          <a href="https://aa88kk.github.io/zhaobiao/categories/syntax-highlighting/"> Syntax Highlighting </a>
+          <a href="https://aa88kk.github.io/zhaobiao/categories/development/"> Development </a>
+          <a href="https://aa88kk.github.io/zhaobiao/categories/golang/"> golang </a>
           <a href="https://aa88kk.github.io/zhaobiao/categories/index/"> index </a>
           
         </div>
@@ -463,14 +499,11 @@
   <div class="post-content">
     
     <div class="post-summary">
-      <p>More detail: <a href="https://gohugo.io/content-management/syntax-highlighting/">Syntax Highlighting | Hugo</a></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">helloWorld</span> () {
-  <span style="color:#a6e22e">alert</span>(<span style="color:#e6db74">&#34;Hello, World!&#34;</span>)
-}
-</code></pre></div>
+      Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
+This document is a brief primer on using go templates.
     </div>
     <div class="read-more">
-      <a href="/zhaobiao/post/syntax-highlighting/" class="read-more-link">Read more</a>
+      <a href="/zhaobiao/post/goisforlovers/" class="read-more-link">Read more</a>
     </div>
     
   </div>
@@ -499,65 +532,461 @@
 
   
   
-  <nav class="pagination">
-    <ul>
-      
-      <li >
-        <a href="/zhaobiao/">1</a>
-      </li>
-      
-      <li >
-        <a href="/zhaobiao/page/2/">2</a>
-      </li>
-      
-      <li >
-        <a href="/zhaobiao/page/3/">3</a>
-      </li>
-      
-      <li >
-        <a href="/zhaobiao/page/4/">4</a>
-      </li>
-      
-      <li >
-        <a href="/zhaobiao/page/5/">5</a>
-      </li>
-      
-      <li >
-        <a href="/zhaobiao/page/6/">6</a>
-      </li>
-      
-      <li >
-        <a href="/zhaobiao/page/7/">7</a>
-      </li>
-      
-      <li >
-        <a href="/zhaobiao/page/8/">8</a>
-      </li>
-      
-      <li >
-        <a href="/zhaobiao/page/9/">9</a>
-      </li>
-      
-      <li >
-        <a href="/zhaobiao/page/10/">10</a>
-      </li>
-      
-      <li >
-        <a href="/zhaobiao/page/11/">11</a>
-      </li>
-      
-      <li >
-        <a href="/zhaobiao/page/12/">12</a>
-      </li>
-      
-      <li  class="active" >
-        <a href="/zhaobiao/page/13/">13</a>
-      </li>
-      
-    </ul>
-  </nav>
 
-  
+    <nav class="pagination">
+      <ul>
+
+      
+      
+      <li><a href="/zhaobiao/">««</a></li>
+      
+
+      
+      
+      <li><a href="/zhaobiao/page/12/">«</a></li>
+      
+
+      
+      
+
+        
+
+        
+        
+
+          
+          
+          
+
+            
+            
+
+          
+          
+
+        
+        
+
+        
+        
+
+      
+
+        
+
+        
+        
+
+          
+          
+          
+
+            
+            
+              
+            
+
+          
+          
+
+        
+        
+
+        
+        
+          <li class="">
+            <a href="/zhaobiao/page/2/">
+              2
+            </a>
+          </li>
+        
+
+      
+
+        
+
+        
+        
+
+          
+          
+          
+
+            
+            
+              
+            
+
+          
+          
+
+        
+        
+
+        
+        
+          <li class="">
+            <a href="/zhaobiao/page/3/">
+              3
+            </a>
+          </li>
+        
+
+      
+
+        
+
+        
+        
+
+          
+          
+          
+
+            
+            
+              
+            
+
+          
+          
+
+        
+        
+
+        
+        
+          <li class="">
+            <a href="/zhaobiao/page/4/">
+              4
+            </a>
+          </li>
+        
+
+      
+
+        
+
+        
+        
+
+          
+          
+          
+
+            
+            
+              
+            
+
+          
+          
+
+        
+        
+
+        
+        
+          <li class="">
+            <a href="/zhaobiao/page/5/">
+              5
+            </a>
+          </li>
+        
+
+      
+
+        
+
+        
+        
+
+          
+          
+          
+
+            
+            
+              
+            
+
+          
+          
+
+        
+        
+
+        
+        
+          <li class="">
+            <a href="/zhaobiao/page/6/">
+              6
+            </a>
+          </li>
+        
+
+      
+
+        
+
+        
+        
+
+          
+          
+          
+
+            
+            
+              
+            
+
+          
+          
+
+        
+        
+
+        
+        
+          <li class="">
+            <a href="/zhaobiao/page/7/">
+              7
+            </a>
+          </li>
+        
+
+      
+
+        
+
+        
+        
+
+          
+          
+          
+
+            
+            
+              
+            
+
+          
+          
+
+        
+        
+
+        
+        
+          <li class="">
+            <a href="/zhaobiao/page/8/">
+              8
+            </a>
+          </li>
+        
+
+      
+
+        
+
+        
+        
+
+          
+          
+          
+
+            
+            
+              
+            
+
+          
+          
+
+        
+        
+
+        
+        
+          <li class="">
+            <a href="/zhaobiao/page/9/">
+              9
+            </a>
+          </li>
+        
+
+      
+
+        
+
+        
+        
+
+          
+          
+          
+
+            
+            
+              
+            
+
+          
+          
+
+        
+        
+
+        
+        
+          <li class="">
+            <a href="/zhaobiao/page/10/">
+              10
+            </a>
+          </li>
+        
+
+      
+
+        
+
+        
+        
+
+          
+          
+          
+
+            
+            
+              
+            
+
+          
+          
+
+        
+        
+
+        
+        
+          <li class="">
+            <a href="/zhaobiao/page/11/">
+              11
+            </a>
+          </li>
+        
+
+      
+
+        
+
+        
+        
+
+          
+          
+          
+
+            
+            
+              
+            
+
+          
+          
+
+        
+        
+
+        
+        
+          <li class="">
+            <a href="/zhaobiao/page/12/">
+              12
+            </a>
+          </li>
+        
+
+      
+
+        
+
+        
+        
+
+          
+          
+          
+
+            
+            
+              
+            
+
+          
+          
+
+        
+        
+
+        
+        
+          <li class="active">
+            <a href="/zhaobiao/page/13/">
+              13
+            </a>
+          </li>
+        
+
+      
+
+        
+
+        
+        
+
+          
+          
+          
+
+            
+            
+              
+            
+
+          
+          
+
+        
+        
+
+        
+        
+          <li class="">
+            <a href="/zhaobiao/page/14/">
+              14
+            </a>
+          </li>
+        
+
+      
+
+      
+      
+      <li><a href="/zhaobiao/page/14/">»</a></li>
+      
+
+      
+      
+      <li><a href="/zhaobiao/page/14/">»»</a></li>
+      
+
+      </ul>
+    </nav>
   
 
 
